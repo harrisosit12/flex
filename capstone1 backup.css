@@ -1,0 +1,270 @@
+@media (max-width: 576px) {
+  #portfolio, #gallery {
+    text-align: center;
+  }
+
+  #galleryRow img {
+    height: 100%;
+  }
+
+  #ip3, #ip4, #desc {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  #gallery img {
+    height: 290px;
+  }
+
+  #p3, #p4, #p6 {
+    display: none;
+  }
+}
+@media (max-width: 992px) {
+  #portfolioContainer .row {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #spacing, #p7, #p8 {
+    display: none;
+  }
+}
+* {
+  font-family: "Graphik", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #F8FBFF;
+}
+
+b {
+  color: #84C1FF;
+}
+
+#pP {
+  font-family: "Granjon Roman", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  letter-spacing: 4px;
+  margin: 10px 0;
+}
+
+.navbar {
+  transition: 800ms ease;
+  background: transparent;
+}
+.navbar #logo {
+  font-size: 35px;
+  margin: 0;
+  padding: 0 25px 0 25px;
+  color: #84C1FF;
+}
+.navbar #badge {
+  background: #84C1FF;
+  color: #F8FBFF;
+}
+.navbar #menu-icon {
+  background: transparent;
+  color: #84C1FF;
+}
+
+.navbar.scrolled {
+  background-color: white;
+  width: 99%;
+  margin: 5px 5px 1px 5px;
+}
+.navbar.scrolled #badge {
+  border-bottom: 0.02rem solid black;
+}
+.navbar.scrolled a {
+  color: #84C1FF;
+}
+.navbar.scrolled #badge {
+  background: #D6EAFF;
+  color: #84C1FF;
+}
+
+#badge:hover {
+  color: #2A4D69;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  text-decoration: none;
+}
+
+li {
+  padding: 0px 1em 0px 1em;
+  color: #F8FBFF;
+  text-transform: lowercase;
+  text-align: center;
+}
+
+a {
+  list-style: none;
+  text-decoration: none;
+  font-size: 16px;
+  color: #F8FBFF;
+}
+
+li:hover {
+  color: #84C1FF;
+}
+
+#imgDesc {
+  font-family: "Granjon Roman", sans-serif;
+  color: #496A8B;
+  font-weight: 200;
+  letter-spacing: -1px;
+  font-size: 19;
+  margin: 10px 0;
+  text-transform: lowercase;
+}
+
+#imgDesc:hover {
+  color: #84C1FF;
+}
+
+#mainimg {
+  height: 100vh;
+  max-width: 100%;
+  background-image: url("https://www.etq-amsterdam.com/wp-content/uploads/2019/04/96A1990-e1554473851285-2500x0-c-default.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  border: 1px solid black;
+}
+#mainimg p {
+  font-size: 1.1rem;
+  letter-spacing: -2px;
+  background-color: transparent;
+}
+#mainimg h1 {
+  font-size: 2rem;
+  letter-spacing: -2px;
+  text-transform: uppercase;
+  background-color: transparent;
+  font-weight: 800;
+  color: #84C1FF;
+}
+
+label {
+  font-weight: 800;
+  font-size: 1.3rem;
+  margin-top: 20px;
+}
+
+#bd-example * {
+  background-color: transparent;
+}
+#bd-example * h5 {
+  background-color: transparent;
+  font-family: "Roboto condensed", sans-serif;
+  font-size: 2.5rem;
+  line-height: 3.125rem;
+  letter-spacing: -3px;
+  padding: 2px;
+  background: rgba(0, 0, 0, 0.4);
+  text-transform: uppercase;
+  color: #F8FBFF;
+  font-weight: 800;
+}
+#bd-example * p {
+  font-family: "Maven pro", sans-serif;
+  font-size: 1rem;
+  color: #84C1FF;
+  line-height: 1rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  width: 100%;
+  padding: 1rem;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+#instastore {
+  color: #84C1FF;
+}
+
+i {
+  color: #84C1FF;
+}
+
+input[type=text], input[type=email] {
+  display: inline-block;
+  color: black;
+  padding: 10px;
+  width: 250px;
+  box-sizing: border-box;
+  background-color: #EAF4FF;
+  border: none;
+  border-radius: 2px;
+  margin: 10px auto;
+  transition: background-color 0.5s ease;
+}
+
+input[type=submit] {
+  display: inline-block;
+  color: black;
+  padding: 10px;
+  width: 250px;
+  box-sizing: border-box;
+  background-color: #ADD6FF;
+  border: none;
+  border-radius: 2px;
+  margin: 10px auto;
+  transition: background-color 0.5s ease;
+}
+
+#g {
+  padding-left: 3rem;
+  margin-left: 3rem;
+  letter-spacing: 7px;
+  text-transform: uppercase;
+}
+
+#portfolio, #gallery {
+  font-family: "Helvetica", san-serif;
+  letter-spacing: 8px;
+  color: #689BB6;
+}
+
+#galleryRow img {
+  object-fit: cover;
+  box-shadow: 5px 5px 2.5px grey;
+}
+#galleryRow img:hover {
+  padding: 5px;
+  transition: transform 0.2s;
+  /* Animation */
+  box-shadow: none;
+}
+
+footer {
+  font-size: 13px;
+  background-color: #EAF4FF;
+}
+footer i {
+  font-size: 1rem;
+  padding: 1rem;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #eee;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #84C1FF;
+  border-radius: 5px;
+}
+
+/*# sourceMappingURL=style.css.map */

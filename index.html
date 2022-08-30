@@ -1,0 +1,557 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <title>Flex Online Shop</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+
+
+
+
+  </head>
+
+  <body class = "w3-animate-opacity" onresize="">
+
+
+    <script>
+            
+        $(window).scroll(function()
+        {
+            $('nav').toggleClass('scrolled', $(this).scrollTop() > 50);
+            
+        });
+
+
+
+    </script>
+
+      <div class = "container-fluid">
+
+        <nav class = "navbar fixed-top navbar-expand-lg p-1" id = "navbar">
+
+            <a class="navbar-brand text-center" href="#" id = "logo">flex</a>
+             
+             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+               
+               <i class="fas fa-bars" id="menu-icon"></i>
+
+             </button>
+
+             <div class = "collapse navbar-collapse" id ="navbarSupportedContent">
+
+                <ul class = "navbar navbar-nav mr-auto">
+
+                  <li>
+                      <a>Men</a>
+                  </li>
+
+                  <li>
+                      <a>Women</a>
+                  </li>
+                  <li>
+                      <a>Personal Collection</a>
+                  </li>
+                  <li>
+                      <a>Journal</a>
+                  </li>
+
+                </ul> 
+
+                <ul class = "navbar navbar-nav ml-auto">
+
+                  <li>
+                      <a>Search</a>
+                  </li>
+
+                  <li>
+                      <a>Help</a>
+                  </li>
+
+                  <li>
+                    <a>My Account</a>
+                  </li>
+
+                  <li>
+                      <span class="badge badge-pill" id="badge">0</span>
+                  </li>
+
+                </ul>
+                 
+             </div>
+              
+
+               
+         </nav>
+    </div>
+
+    <div id = "mainimg" class = "d-flex text-center justify-content-center flex-column">
+        <p class = "align-self-center"> Summer 2022</p>
+        <h1 class = "align-self-center">Explore the new collection</h1>
+    </div>
+           
+
+    <!-- /header --> 
+
+<div class = "container w3-animate-bottom" id = "galleryContainer">
+
+	  <hr>
+
+      <h2 class = "p-3" id = "gallery">Gallery</h2>
+
+      <hr>
+
+      <div class="row" id = "galleryRow">
+
+            
+            <div class = "col mx-3 p-0 my-3 align-self-center" id = "p1">
+
+              <img src="https://media.gucci.com/style/DarkGray_Center_0_0_800x800/1546621210/562911_9TINN_6472_001_079_0000_Light-Large-GG-velvet-backpack.jpg"  width = "100%" height="250" alt="Responsive image">
+
+              <hr>
+              <p class = "text-center" id = "imgDesc">
+                Large GG Velvet Backpack
+              </p>
+              <hr>
+
+            </div>
+
+            <div class = "col mx-3 p-0 my-3 align-self-center"  id = "p2">
+
+               <img src="https://s3.r29static.com/bin/entry/4d7/x,80/2215650/image.jpg"  width = "100%" height="250" alt="Responsive image">
+
+               <hr>
+               <p class = "text-center" id = "imgDesc">
+                 Gucci Zumi Strawberry
+               </p>
+               <hr>
+
+            </div>
+
+            <div class = "col mx-3  p-0 my-3 align-self-center"  id = "p3">
+
+               <img src="https://media.gucci.com/style/DarkGray_Center_0_0_800x800/1546621206/562911_973BN_3091_001_083_0000_Light-Large-backpack.jpg" width="100%" height="250" alt="Responsive image"">
+
+               <hr>
+               <p class = "text-center" id = "imgDesc" id = "p4">
+                 Black GG Backpack
+               </p>
+               <hr>
+
+            </div>
+
+            <div class = "col mx-3  p-0 my-3 align-self-center">
+
+               <img src="https://media.gucci.com/style/DarkGray_Center_0_0_800x800/1536340506/547899_0PLYT_1063_001_100_0013_Light-Leather-backpack-with-metallic-prints.jpg" width="100%" height="250" alt="Responsive image" >
+
+               <hr>
+               <p class = "text-center p-0" id = "imgDesc">
+                 
+                 Leather metallic prints
+               </p>
+               <hr>
+
+            </div> 
+
+      </div>     
+
+        <div class = "w-100">
+
+        </div>
+
+        <div class = "row" id ="galleryRow">
+
+          <div class = "col mx-3 p-0 my-3 align-self-center"  id = "p5">
+
+             <img src="https://media.gucci.com/style/DarkGray_Center_0_0_2400x2400/1532020153/543149_GGZ80_1079_001_100_0000_Light-Flashtrek-sneaker.jpg" width="100%" height="250" alt="Responsive image">
+
+             <hr>
+             <p class = "text-center" id = "imgDesc">
+               Flashtrek sneaker with crystals
+             </p>
+             <hr>
+
+          </div>
+
+          <div class = "col mx-3  p-0 my-3 align-self-center" id = "p6">
+
+             <img src="https://media.gucci.com/style/DarkGray_Center_0_0_800x800/1538487935/548714_D6090_1087_001_100_0000_Light-Flashtrek-high-top-sneaker-with-wool.jpg" width="100%"height="250" alt="Responsive image">
+
+             <hr>
+             <p class = "text-center" id = "imgDesc">
+               Flashtrek high-top sneaker with wool
+             </p>
+             <hr>
+
+          </div>
+
+          <div class = "col mx-3  p-0 my-3"  id = "p7">
+
+             <img src="https://media.gucci.com/style/DarkGray_Center_0_0_800x800/1548178210/572228_0G0V0_6433_001_091_0000_Light-Leather-platform-loafer-with-Horsebit.jpg" width="100%" height="250" alt="Responsive image">
+
+             <hr>
+             <p class = "text-center" id = "imgDesc">
+               Gucci Leather platform loafer with Horsebit
+             </p>
+             <hr>
+
+          </div>
+
+          <div class = "col mx-3  p-0 my-3"  id = "p8">
+            
+             <img src="https://media.gucci.com/style/DarkGray_Center_0_0_800x800/1546534804/565600_C9D00_1000_001_092_0000_Light-Leather-mid-heel-pump-with-half-moon-GG.jpg" width="100%" height="250" alt="Responsive image">
+
+             <hr>
+             <p class = "text-center" id = "imgDesc">
+               Leather mid-heel pump with half moon GG
+             </p>
+             <hr>
+
+          </div>
+
+        </div>  
+
+
+
+ </div>
+
+
+    <!-- Portfolio -->
+    <div class="container-fluid" id = "portfolioContainer">      
+
+      <div class= "row mt-3">        
+        
+        <div class = "col-md-12 col-lg-3 mt-3">
+          
+          <h1 class = "p-3" id = "portfolio">Portfolio</h1>
+
+          <hr>
+
+          <p class = "text-right px-5" id = "pP">
+          <br>
+          <br> 
+            <b>flex</b> creates a modern perspective on fashion. Shop the latest collection at the official online store with free worldwide shipping.
+          </p>
+
+        </div>        
+
+        <div class = "col mt-3 pl-0">
+
+          <h1 class = "p-3 text-left" id = "spacing"> &nbsp;</h1>
+
+          <hr>
+
+          <div class="bd-example" id ="bd-example">
+
+            <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-ride="carousel" data-interval ="5000">
+
+              <ol class="carousel-indicators">
+
+                <li data-target="#carouselExampleCaptions" data-slide-to="0"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+
+              </ol>
+              <div class="carousel-inner">
+
+                <div class="carousel-item active">
+
+                  <img src="https://www.givenchy.com/dw/image/v2/BBRT_PRD/on/demandware.static/-/Library-Sites-shared_GIV_Library/default/dw0e26c33d/Home/Shop%20the%20look/0804Men_Desktop.jpg?sfrm=jpg" class="d-block w-100" alt="...">
+
+                  <div class="carousel-caption d-none d-md-block" id = "cc">
+                    <h5>SHOP FOR MEN</h5>
+                    <p>Discover the looks for the 2022 Collection</p>
+                  </div>
+
+                </div>
+
+                <div class="carousel-item">
+
+                  <img src="https://www.givenchy.com/dw/image/v2/BBRT_PRD/on/demandware.static/-/Library-Sites-shared_GIV_Library/default/dw33154dbd/Home/Shop%20the%20look/0804Women_Desktop.jpg?sfrm=jpg" class="d-block w-100" alt="...">
+
+                  <div class="carousel-caption d-none d-md-block" id = "cc">
+                    <h5>SHOP FOR WOMEN</h5>
+                    <p>Discover the looks for the 2022 Collection</p>
+                  </div>
+
+                </div>
+<!-- 
+                <div class="carousel-item">
+
+                  <img src="https://sitegenesis.production.lvmh.coremedia.cloud/resource/blob/616934/291c5e7fe6140356cbc4ec9ee32a3c16/bts-fall22-bags-4g-white-data.jpg" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block" id = "cc">
+                    <h5>MYSTIC BAGS</h5>
+                    <p>Discover the looks for the 2022 Collection</p>
+                  </div>
+
+                </div> -->
+
+                 <div class="carousel-item">
+
+                  <img src="https://www.givenchy.com/dw/image/v2/BBRT_PRD/on/demandware.static/-/Library-Sites-shared_GIV_Library/default/dwa83d29e5/Home/Homepage%2018122018/London%20store%20dsktop.jpg?sfrm=jpg" class="d-block w-100" alt="...">
+                  
+                  <div class="carousel-caption d-none d-md-block">
+
+                    <h5>STORES</h5>
+                    <p>Discover the looks for the 2022 Collection</p>
+
+                  </div>
+                </div>
+              </div>             
+  
+
+
+              
+              <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+
+              </a>
+
+              <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+
+              </a>
+            
+            </div>
+
+          </div>
+          
+          <hr>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <div class = "container-fluid">
+
+          <h5><i class="fab fa-instagram" id = "instastore"></i> Insta Store </h5>
+
+        <div class="row" id = "instaRow">
+            
+            <div class = "col p-3 my-3"  id="ip1">
+
+              <img src="https://cdn.shopify.com/s/files/1/0505/9044/9849/products/LT04Off-CourtPLAYAnthracitePackshot4_1080x.jpg?v=1656606178" width="100%" height="250" alt="Responsive image"  alt="Responsive image">
+
+              <br>
+
+              
+                <hr>  
+                <label>4 days ago</label>
+             
+                <br>
+                LT 04 Off-Court PLAY ANT
+                <br>
+                <br>          
+                <i class="far fa-heart"></i> 344 likes 
+
+            </div>
+
+            <div class = "col p-3 my-3"  id="ip2">
+
+               <img src="https://cdn.shopify.com/s/files/1/0505/9044/9849/products/ETQ_Model_06Angel3_2048x.jpg?v=1646947277" width="100%" height="250" alt="Responsive image"  alt="Responsive image">
+
+               <p class = "">
+                 <hr>  
+
+                 <label>5 days ago</label>
+               
+                 <br>
+                 LT 04 Off-Court PLAY GRY
+                 <br>
+                 <br>  
+                  <i class="far fa-heart"></i> 632 likes
+            
+               </p>
+
+            </div>
+
+            <div class = "col p-3 my-3"  id="ip3">
+
+               <img src="https://cdn.shopify.com/s/files/1/0505/9044/9849/products/ETQ_Model_030Angel3_750x.jpg?v=1656605560" width="100%" height="250" alt="Responsive image">
+
+                <hr>
+                <label>7 days ago</label>
+
+               <br>
+               LT 01 Court Lite Suede Navy
+
+               <br>
+  
+                <br>
+                <i class="far fa-heart"></i> 137 likes    
+            
+            </div>
+
+            <div class = "col p-3 my-3"  id="ip4">
+
+               <img src="https://cdn.shopify.com/s/files/1/0505/9044/9849/products/LT01SandPackshot5_2048x.jpg?v=1656920974" width="100%" height="250" alt="Responsive image">
+
+                 <hr>  
+                 <label>2 weeks ago</label>           
+                 <br>
+                 LT 01 Sand
+                 <br>
+                 <br>
+                 <i class="far fa-heart"></i> 133 likes 
+
+            </div>
+
+        </div>
+
+    </div>
+<!-- 
+    Other Items
+
+
+ -->
+    <div class = "container-fluid">  
+
+        <div class = "row mt-3">
+
+              <div class = "col-xs-2 col-md-6 col-lg-6 px-4 py-3">
+
+                <h4>Contact Us</h4>            
+                
+                <hr>
+
+                <h6 class = "mb-1">Name</h6>
+
+                  <div class="input-group mb-3">
+                    
+                    <input type="text" class="form-control" placeholder="Enter your name..." aria-label="Username" aria-describedby="basic-addon1" id = "name">
+
+                  </div>
+
+                  <h6> Email</h6>
+
+                  <div class="input-group mb-3">
+
+                    <input type="email" class="form-control" placeholder="example@gmail.com" aria-label="Username" aria-describedby="basic-addon1">
+
+                  </div>
+
+                  <h6> Message</h6>
+
+                    <div class="input-group">
+
+                      <textarea type="text" class="form-control" aria-label="With textarea" id = "textarea"></textarea>
+
+                    </div>
+
+                  <hr>
+
+                    <div class="input-group">
+
+                       <input type="submit" class="form-control" placeholder="" aria-label="Username" aria-describedby="basic-addon1">
+
+                    </div>
+                
+              </div>
+
+              <div class = "col px-4 py-3">
+
+                <h4 id = "desc text-rigt">Getting in touch is easy!</h4>
+
+                <hr>
+
+                <p class = "text-justify" id = "desc">
+
+                  We'd love to hear from you!
+                
+                  <br>
+                  
+                  Wether you have a question about the features, trials, pricing, need a demo or anything else is ready to answer all your questions.                
+                  
+
+                </p>
+                
+              </div>
+
+        </div>
+
+    </div>
+
+
+
+
+    <footer class = "container-fluid">
+
+      <div class = "row">
+
+        <div class = "col-5 col-sm" id = "fp1">
+          <label>About Us</label>
+          <p>
+             Flex founded in 2022 in Manila, flex derived under the mindset of eliminating minimalistic-accessorized branding and focusing primarily on letting the quality of the product speak for itself.
+          </p>
+        </div>
+
+        <div class = "col col-sm" id = "fp2">
+          <label>Address</label>
+          <p>
+             Singel 465
+             <br>
+             1012 WP Amsterdam
+             <br>
+             The Netherlands
+          </p>
+        </div>
+
+
+        <div class = "col-6 col-sm" id = "fp3">
+          <label>Info</label>
+          <p>
+             Shipping info
+             <br>
+             Contact
+             <br>
+             Careers
+          </p>
+        </div>
+        <div class = "col-6 col-sm" id = "fp4">
+          <label>Follow us</label>
+            <br>
+            <i class="fab fa-facebook"></i> facebook.com/flex
+            <br>
+            <i class="fab fa-twitter"></i> twitter.com/flex
+            <br>
+            <i class="fab fa-instagram"></i> instagram.com/flex
+            <br>
+            <i class="fab fa-tumblr"></i> tumblr.com/flex
+        </div>         
+      </div>
+    
+     </footer>
+
+
+    
+
+      
+     
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/
+    X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

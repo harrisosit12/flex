@@ -1,0 +1,420 @@
+$color1: #F8FBFF;
+
+$color2: #EAF4FF;
+
+$color3: #D6EAFF;
+
+$color4: #ADD6FF;
+
+$color5: #84C1FF;
+
+$color6: #DACFD3;
+
+$color7: #A39799;
+
+$color8: #496A8B;
+
+$color9: #689BB6;	
+
+$color10: #B0CBDC;
+
+$color11: #D3DFEB;
+
+
+
+// @media (min-width: 576px) { ... }
+
+// // Medium devices (tablets, 768px and up)
+// @media (min-width: 768px) { ... }
+
+// // Large devices (desktops, 992px and up)
+// @media (min-width: 992px) { ... }
+
+// // Extra large devices (large desktops, 1200px and up)
+// @media (min-width: 1200px) { ... }
+
+@media (max-width: 576px) 
+{
+
+	// .navbar *
+	// {
+	// 	background: $black;
+	// }
+
+	#portfolio, #gallery
+	{
+		text-align: center;
+
+	}
+	#galleryRow
+	{
+		img
+		{
+			height: 100%;
+		}
+	}
+
+	#ip3, #ip4, #desc
+		{
+			display: none;
+		}
+  
+}
+
+
+@media (max-width: 768px)  
+	
+{
+
+	#gallery
+		{
+			img
+			{
+				height: 290px;
+			}
+		}
+
+	#p3, #p4, #p6,
+		{
+			display: none;
+		}
+}
+
+@media (max-width: 992px)  
+	
+{
+
+	#portfolioContainer
+	{
+		.row
+		{
+			display: flex;
+			flex-direction: column;
+		}
+	}
+
+	#spacing, #p7, #p8
+		{
+			display: none;
+		}
+
+	// a
+	// 	{
+	// 		color: red !important;
+	// 	}
+	 
+
+	
+}
+
+
+
+
+*
+{
+	font-family: "Graphik",sans-serif;
+	margin: 0;
+	padding: 0;
+    // background-color: $color1;
+}
+
+
+body
+{
+	background-color: $color1;
+	transition: 1000ms;
+}
+
+b
+{
+	color: $color5;
+}
+#pP
+{
+	font-family: "Granjon Roman", sans-serif;
+	font-weight: 200;
+    font-style: normal;
+    letter-spacing: 4px;
+    margin: 10px 0;
+}
+
+.navbar
+
+{	
+	transition: 500ms ease;
+	background: transparent;
+
+	#logo
+	{
+		font-size: 35px;
+		margin: 0;
+		padding: 0 25px 0 25px;
+		color: $color5;
+	}
+
+	#badge
+	{
+		background: $color5;
+		color: $color1;
+
+	}
+
+	#menu-icon
+	{
+		background: transparent;
+		color: $color5;
+	}
+}
+
+.navbar.scrolled
+{
+  background-color: white;
+  width: 99%;
+  margin: 5px 5px 1px 5px;
+
+  // li
+  // 	{ 
+  // 		// border-bottom: .02rem solid black;
+  // 		border-top: .02rem solid black;
+
+  		#badge
+  		{
+  			border-bottom: .02rem solid black;
+  		}
+
+		a
+		{
+		  	color: $color5;
+		}
+
+	  	#badge
+		{
+			background: $color3;
+			color: $color5;			
+		}
+	// }
+}
+
+
+
+
+#badge:hover
+{
+	color: #2A4D69;
+}
+
+ul
+{
+	list-style: none;
+	margin: 0;
+	text-decoration: none;
+
+}
+li
+{
+	padding: 0px 1em 0px 1em;
+	color: $color1;
+	text-transform: lowercase;
+	text-align: center;
+}
+a
+{
+	list-style: none;
+	text-decoration: none;
+	font-size: 16px;
+	color: $color1;	
+}
+
+li:hover
+{ 
+  color: $color5;
+}
+
+#imgDesc
+{
+	font-family: "Granjon Roman", sans-serif;
+	color: $color8;
+	font-weight: 200;
+    // font-style: normal;
+    letter-spacing: -1px;
+    font-size: 19;
+    margin: 10px 0;
+    text-transform: lowercase;
+ 	text-align: center;
+}
+
+#imgDesc:hover
+{
+	color: $color5;
+}
+
+#mainimg
+{
+
+height: 100vh;
+max-width: 100%;
+background-image: url("https://www.etq-amsterdam.com/wp-content/uploads/2019/04/96A1990-e1554473851285-2500x0-c-default.jpg");	
+background-size: cover;
+background-position: center center;
+background-repeat: no-repeat;
+border: 1px solid black;
+
+	p
+	{
+		font-size: 1.1rem;
+		letter-spacing: -2px;
+		background-color: transparent;
+	}
+	h1
+	{
+		font-size: 2rem;
+		letter-spacing: -2px;
+		text-transform: uppercase;
+		background-color: transparent;
+		font-weight: 800;
+		color: $color5;
+	}
+
+}
+
+label
+
+{
+	font-weight: 800;
+	font-size: 1.3rem;
+	margin-top: 20px;
+}
+
+#bd-example *
+{
+	// letter-spacing: 10px;
+	background-color: transparent;
+	// color: $color2;
+	h5
+	{
+		background-color: transparent;
+		font-family: "Roboto condensed",sans-serif;
+		font-size: 2.5rem;
+		line-height: 3.125rem;
+		letter-spacing: -3px;
+		padding: 2px;
+		background: rgb(0, 0, 0, 0.4);
+
+		text-transform: uppercase;
+		color: $color1;
+		font-weight: 800;
+	}
+	p
+	{
+
+		font-family: "Maven pro",sans-serif;
+		font-size: 1rem;
+		color: $color5;
+		line-height: 1rem;
+		text-transform: uppercase;
+		font-weight: 700;
+		letter-spacing: .04em;
+		width: 100%;
+		padding: 1rem;
+		background: rgb(0, 0, 0, 0.4); 
+	}
+}
+
+#instastore
+{
+	color: $color5;
+}
+
+i
+{
+	color: $color5;
+}
+
+input[type=text], input[type=email]{
+  display: inline-block;
+  color: black;
+  padding: 10px;
+  width: 250px;
+  box-sizing: border-box;
+  background-color: $color2;
+  border: none;
+  border-radius: 2px;
+  margin: 10px auto;
+  transition:background-color 0.5s ease;
+}
+
+input[type=submit]
+{
+  display: inline-block;
+  color: black;
+  padding: 10px;
+  width: 250px;
+  box-sizing: border-box;
+  background-color: $color4;
+  border: none;
+  border-radius: 2px;
+  margin: 10px auto;
+  transition:background-color 0.5s ease;
+}
+
+#g
+{
+	padding-left: 3rem;
+	margin-left: 3rem;
+	letter-spacing: 7px;
+	text-transform: uppercase;
+}
+#portfolio, #gallery
+{
+	font-family: "Helvetica", san-serif;
+	letter-spacing: 8px;
+	color: $color9;
+
+}
+
+#galleryRow
+{
+	img
+	{
+		object-fit: cover;
+		box-shadow: 5px 5px 2.5px grey;
+	}
+
+	img:hover
+	{
+		padding: 5px;
+		transition: transform .2s; /* Animation */
+		box-shadow: none;
+	}
+}
+
+
+
+
+footer
+{
+	font-size: 13px;
+	background-color: $color2;
+
+	i
+	{
+		font-size: 1rem;
+		padding: 1rem
+	}
+
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #eee;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: $color5;
+  border-radius: 5px;
+
+}
